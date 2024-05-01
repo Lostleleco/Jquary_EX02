@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario J-query</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Preencha aqui com os dados obrigatorios:</h1>
+    </div>
+    <div class="container">
+        <form class="campos" id="formulario">
+            <input type="text" placeholder="Nome Completo"  name="nome" id="nome">
+            <input type="email" placeholder="E-mail" name="email" id="email">
+            <input type="tel" placeholder="Telefone" name="Tel" id="tel">
+            <input type="text" placeholder="CPF"  name="CPF" id="CPF">
+           
+        </form>
+        <form class="complemento">
+            <input type="text" placeholder="Endereço completo" required  name="Endereço" id="endereço">
+            <input type="number" placeholder="Numero" name="end2" required id="numerodacasa">
+            <input type="text" placeholder="Bairro" name="Bairro" required id="Bairro">
+            <input type="number" placeholder="CEP"  name="cep" required id="cep">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

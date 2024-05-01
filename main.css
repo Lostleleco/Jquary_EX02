@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        max-width: 1360px;
+        width: 100%;
+        margin: 120px auto;
+        text-align: center;
+        background-color: black;
+    }
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.campos input {
+    margin-left: 40%;
+    display:flex;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+#numerocasa, #bairro, #endereço {
+    display: inline;
+    margin-left:08% ;
+    margin-top: 8px;
+   
+}
+.complemento input{
+    padding: 8x;
+    
+}
+#enviar {
+    padding: 6px;
+}
+.mensagem-branca {
+    color: white;
+}
